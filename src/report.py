@@ -101,7 +101,7 @@ for directory, dirnames, filenames in os.walk(dir_path):
             for j in range(66, 70):
                 excel_matches_arr[i-3, j-66, idx] = ws_matches['%c%d' % (j, i)].value
 
-    np.set_printoptions(suppress=True, precision=2)
+    np.set_printoptions(suppress=True, precision=4)
     print('System:')
     print(np.average(system_arr, axis=1))
     print('Commuter:')
