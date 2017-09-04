@@ -1,0 +1,3 @@
+# nodes: 25
+min shortest path: 20->23, 2.2360679775
+max shortest path: 2->10, 68.1841774157
